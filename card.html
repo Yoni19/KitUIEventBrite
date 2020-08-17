@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link href="fontawesome/css/all.css" rel="stylesheet"> 
+  <title>EventBrite</title>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Eventbrite</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="navbar.html">NavBar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="footer.html">Footer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="formulaire.html">Formulaire</a>
+          <li class="nav-item">
+
+            <a class="nav-link" href="banniere.html">Bannière  </a>
+          </li>
+        </li>
+        <li class="nav-item">
+
+          <a class="nav-link" href="card.html">Cards  </a>
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link" href="card_list.html">Cards list  </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="comment.html">Commentaires</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="show.html">Show</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="left.html">Left</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</head>
+<body>
+  <h1 class= text-center>Exemple d'evenement</h1>
+  <br>
+
+  <div class="container">
+    <div class="col-4">
+      <div class="card">
+        <div class="card-header d-flex flex-column text-center">
+          <h4>Titre de l'evenement</h4>
+          <div>
+            19/08/2020 à Paris
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center">Prix : 100 euros // Durée : 60 minutes</h5>
+          <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi praesentium illo alias unde commodi? Ipsa, nisi! Quisquam nihil dignissimos eligendi omnis aliquid laborum quo aspernatur odio, non aliquam sint accusamus.</p>
+        </div>
+        <div class="d-flex flex-column justify-content-center mb-1">
+          <a href="#" class="btn btn-primary color:#333">Détails de l'évenement</a> 
+        </div>
+      </div>      
+    </div>
+  </div>
+
+  <h1 class= text-center>Participants</h1>
+  <br>
+  <table class="container">
+    <tr class="d-flex border-dark border-bottom">
+      <td><i class="fas fa-user-circle fa-2x p-2 bd-highdark"></i></td>
+      <td class="p-2 bd-highdark">Olivier FITOUSSI</td> 
+      <td class="ml-auto p-2 bd-dark"><a href="#">Voir le profil</a></td>
+    </tr>   
+  </table>
+  <br>
+  <h1 class= text-center>Villes</h1>
+
+  <div class="container">
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center active">
+        Villes
+        <span class="badge badge-primary badge-pill">Nombre d'évènements</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Paris
+        <span class="badge badge-primary badge-pill">1</span>
+      </li>
+    </ul>
+  </div>
+
+</body>
+</html>
